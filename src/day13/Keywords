@@ -1,0 +1,57 @@
+Keywords
+--------
+	
+NOTE:-
+2 types of variables
+	1. Class Variables / instance variables
+	2. Local Variables
+	
+	In JAVA we don't have global variable.
+	
+	
+NOTE:- 2 types of error (Just knowledge)
+	1. Logical error (x=x) (this.x = x)
+	2. Syntax error
+	
+	
+1. this keyword
+2. static keyword - applies in variable and method
+	
+	static variable 
+	static method
+	non static variable
+	non static method
+	
+	due to 1. Modification and 2. Updation we use static. Memory pbm also.
+	We declear the variable with value in class level with static keyword.
+	Once we changing that value, it will reflects in all objects.
+	Even if we changes in one object, it will reflect all other objects. [Bcz it is a shared variable or common variable]
+	
+Place to use ->	If any data is common across for multiple objects then only we can create variable or method as a static.
+
+1) Static methods can access static stuff directly (without object)
+2) Static methods can access non static stuff through object.
+3) Non static method can access everything directly
+
+
+NOTE:
+class System{
+
+static PrintSteam out;
+}
+System.out.println();   System is a Class, out is a PrintSteam variable of static, and println method is belongs to PrintSteam class.
+
+public static void main(String[] args)
+{
+}
+
+public - this method accessible everywhere in the project, no limitation
+static - the main method is common across all the classes and all the objects
+void - the main method will not return any value
+String[] args - It is a array arguments, takes String array parameter as a argument
+
+public static void main (String [] args) -> Valid
+static public void main (String [] args) -> Valid
+public void static  main (String [] args) -> Invalid, Void should be before the method name
+void main(String args[]) public void -> Invalid, after closing of the bracket we should not write anything
+public static void main(int a[]) -> Valid, but JVM takes this as an normal method, it should look actual main method (String args[])
