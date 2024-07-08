@@ -1,0 +1,59 @@
+Methods
+-------
+	Method is a group of statements which will perform certain tasks.
+	we have to call the method through Object.
+	
+1. No Parameter		-	No Return Value
+2. No Parameter		-	Return Value
+3. Takes Parameter	-	No Return Value
+4. Takes Parameter	-	Return Value
+
+Ex: 1
+	
+	String s	= new String("Welcome");
+	int len 	= s.length();		//No Parameter		-	Return Value
+	String sub	= s.substrin(2,5)	//Takes Parameter	-	Return Value
+	
+	
+
+Variables
+---------
+How many ways we can store data into variables
+1) By using object reference variable
+2) Method
+3) Constructor
+
+
+
+Methods:-
+---------
+1) Method name can be anything
+2) Method may or may not return a value
+3) If method is not returning any value then specify void
+4) Method can take parameters/arguments
+5) We have to invoke/call methods explicitly through object
+6) Used for specifying logic
+7) Method we have to invoke through object. (object.methodname)
+
+
+Constructor:-
+-------------
+1) Constructor name should be same as class name
+2) Constructor will never return a value(not even void)
+3) We do not specify the void
+4) Constructor can tale parameter/arguments
+5) Constructor automatically invoked at the time of object creation
+6) Used for initializing values of the variables
+7) Constructor is a part of a class, it is also a method.
+8) Constructor is only for initializing the values /storing data into the variable. We cannot perform any conditional statement or looping statement.
+
+NOTE:-
+------
+Method is used for Assignment + Operations
+Constructor is used for only Assignment
+
+
+Constructor:- 2 - Type
+-----------------------
+1) Default Constructor
+2) Parameterized Constructor

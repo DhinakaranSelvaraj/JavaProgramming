@@ -1,0 +1,70 @@
+Day - 2 
+Java Variables and Data Types
+
+
+Variables -> It is a container which can hold some data to represent data we need variables.
+Ex:-  X=100, X=200, name = dhina
+[X is a variable and 100 is the value or data]
+
+
+
+Data type - It represent what type of data we are going to store in variable.
+int X = 100, String name = dhina, float price = 15.25
+Without data type we can't define variable
+
+NOTE: String is a collection of characters
+
+int X = 100;
+float itemprice = 10.52
+int age = 26
+String name = "Dhina"
+char grade = 'A'
+
+NOTE: In Java every statement end with the semicolan
+
+To create the variable in Java We have to specify the data type and variable 
+ex: int a;  //Declaration
+	a=100; //assignment
+	
+We can't define again int a = 100; it shows syntax error. bcz we already declare the data type.
+int a = 100; //declaration+assignment
+
+
+[	int a; // declaration
+		a = 100; // assignment
+		int a1 = 100; // declaration+assignment
+
+		System.out.println(a);
+		System.out.println(a1);
+		System.out.println("a");
+		
+		a= 200; // Value of the variable is changed
+		
+		System.out.println(a);
+]
+
+The value of the variable can also vary.
+We can always change the values of the variable whenever it is needed.
+
+
+		// Approach 1
+		int a = 100; int b = 200; int c = 300; //if all variable are belongs to diff data type
+
+		// Approach 2
+		int a, b, c;
+		a = 100; b = 200; c = 300;  //this is for variables with same data type
+
+		//Approach 3
+		int a = 100, b= 200, c = 300; //this is for variables with same data type
+
+// Printing Values using Concatenation
+		System.out.println("the value of A is:"+a); //Concatenation
+		System.out.println("the value of B is:"+b);
+		System.out.println("the value of C is:"+c);
+		
+		//Single statement for print all the values
+		
+		System.out.println(a+b+c); //it will perform addition
+		
+		//Ans
+		System.out.println(a+" "+b+" "+c);

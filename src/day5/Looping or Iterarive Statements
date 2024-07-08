@@ -1,0 +1,95 @@
+Looping / Iterative Statements
+-------------------------------
+
+Looping is not bug set of or group of statements which we are going to execute multiple times or repetitively
+
+Type - 3
+	1. While loop
+	2. Do While loop
+	3. For loop
+	
+	another one is enhanced for loop (For each loop - specially designed for collections)
+	
+Use of Loop:
+	
+	
+Advantage:
+	1. Avoid Duplication
+	2. Reduce the code
+	
+Important 3 things
+	1. Where exactly the starting point (Initialization)
+	2. How many times we have to repeat (Condition)
+	3. Incrementation/Decrementation (How much value we are going to increamen/decrement in every iteration)
+	
+	EX: Req to print 1 to 10
+	1 is a starting point (initialization) i=1, i<=10 (Condition), i++ (Increment)
+
+1. While Loop
+-------------
+	syntax:- 
+		while(condition)
+		{
+		statements;
+		inc/dec;
+		}
+
+2. Do While loop
+----------------
+	Syntax:-
+		do
+		{
+		statements;
+		inc/dec
+		} while(condition); semicolon is important
+
+It will execute the statement at least one time then it will check the condition.
+
+3. For Loop
+-----------
+Advantage
+	1. We can specify initialization, condition and inc/dec in single line.
+	2. Reduce code
+
+	Syntax:-
+		for(initialization; condition; inc/dec)
+		{
+		statement;
+		}
+		
+Initialization is the first step, after initialization it will check the condition. If the condition is true it will execute the statement. after executing the statement it will increment/decrement the value.
+After increment/decrement it will check the condition again and execute the statement.
+
+Which loop is preferred to use
+-----------------------------
+* If you know the number of iterations in advance, the for loop is often the most suitable.
+* If you want to execute the loop at least once, the do while loop is appropriate
+* If you are uncertain about the number of iterations and the loop termination is based in a condition, the while loop is good choice.
+
+Bike --- Source, Destination, Fuel -> For Loop
+Bus --- First get into the bus then buy ticket -> Do While
+Flight --- Have to buy ticket first then get into the flight -> First condition will be satisfied then statement will be executed
+
+Assignment
+----------
+1. Reverse a number (% / = operators)
+input 1234
+output 4321
+
+2. Palindrome Number (Conditional statement + Looping)
+Input 121
+Output 121
+
+3. Count number is digits in a number (Looping Statements)
+Input: 423424
+Output: 6
+
+4. Count number of even and odd digits in a number
+Input: 23456
+Output: 3 even 2 Odd
+
+5. Find sum of digits in a number
+Input: 1234
+Output: 10
+
+6. Prime Numbers

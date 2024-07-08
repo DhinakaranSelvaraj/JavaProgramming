@@ -1,0 +1,25 @@
+
+1. Create a new Java project
+2. Create a new Jaca Package
+3. Create a new Class - Starts with upper case [FirstJavaProgram]
+	Public - Access Modifier Class ClassName
+	{
+	Scope of the class
+	}
+
+; - represents end of the statement
+System.out.println(20+30);
+System.out.println("20+30");
+
+
+Naming Conversion - CLASS
+1) Class name should start with uppercase
+2) Class name should not start with numbers
+3) Class name should not allow space but we use _
+4) Class name should not allow special characters
+5) Class name contains number
+
+Comments: 
+1.Single line // 
+2.Multiline /*  */
+

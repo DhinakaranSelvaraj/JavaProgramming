@@ -1,0 +1,14 @@
+STRING
+------
+String is a Pre defined Class in JAVA so it has Pre defined Methods also.
+
+	2 methods in JAVA
+		1. Built in methods
+		2. User Defined methods or Custom methods
+
+String Methods
+---------------
+	String s = "Welcome";
+		
+	s.length() = returns the length of the variable.
+	

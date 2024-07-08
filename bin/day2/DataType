@@ -1,0 +1,83 @@
+Data type - It represents the type of data
+
+Whenever you want to store some data in a variable you have to specify the data type,/.
+
+What are the DT available in JAVA?
+We can divide that into two categories.
+	1) Premitive
+	2) Non-Premitive/Derived/Collections
+	
+1) Premitive Data types: [Starts with Lowercase]
+	4 types to represent the numbers => byte, short, int, long -----> Number without decimal
+	2 types to represent the decimal => float, double ---> Represent decimal number
+	1 type for represent the single character => char ---> single quote
+	1 type for represent boolean => true/false
+	
+	Depends of size of the data we use this data type for numbers and decimal
+
+2) Non-Premitive/Derived/Collections: [Starts with Uppercase]
+	1)String
+	2)AllayList
+	3)HashMap
+	4)HashSet
+	etc...
+	
+Premitive data type we use to store the single value at a time
+[Ex: int stuid = 101;]
+
+Non-Premitive: Single data type can hold different type of data (Multiple value into single variable)
+100 student studying in the class. We have to store 100 id's.
+int a[] = new int[100]  (0 to 99)
+
+a[1] represent 0th data
+a[2] represent 1st data
+
+to represent the data what we can do? by using Index, we can access.
+
+String s ="Welcome" //holds multiple value
+chat s = 'w' //holds single value
+
+
+Choosing the right data type based upon the size of data
+
+byte	1 byte		stores whole numbers from -128 to 127
+short	2 bytes		stores whole numbers from -32,768 to 32,768
+int		4 bytes		stores whole numbers from -2,147,483,648 to 2,147,483,648
+long	8 bytes		Stores whole numbers from -9,223,372,036,854,775,808 to 9,223,372,036,854,775,807
+float	4 bytes		Stores fractional numbers. Sufficient for storing 7 decimal digits
+double	8 bytes		Stores fractional numbers. Sufficient for storing 15 decimal digits
+boolean	1 bit		Stores true or false values
+char	2 bytes		Stores a single character/letter or ASCII values
+
+
+saving long X = 100 instead of int X = 100, unnecessarily the memory will be loss
+
+NOTE:
+Variable and Constant
+Variable -> Holds the data [ex: int a = 100;] some time it may change [int a = 200]
+using final that value should not change in future. 
+final int a = 100;
+
+
+NOTE: Interview
+JAVA is statically typed programming language
+PYTHON is dynamically typed programming language
+
+	int  x = 100;
+	x="welcome" --->in JAVA it is not allowed, we can change the value x = 200 but we can't change the data type
+	
+	but in Python it is allowed. In Python we don't need to specify the data type. We don't need to specify  data type expicitly.  
+	It will automatically identify the data type by the value.
+	x = 100, here Python will automatically treated X as an integer.
+	x = "Welcome" here Python will automatically treated X as an String.
+
+In JAVA, once we created the variable with one data type we cannot store other data type in the same variable.
+In PYTHON, based on the data which we have added the data type is automatically assigned to that variable.
+
+
+
+
+
+
+
+ 

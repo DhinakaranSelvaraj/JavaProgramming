@@ -1,0 +1,68 @@
+Object Oriented Programming
+---------------------------
+
+Major 6 Concepts - If any languages which supports this all concepts is called as OOPS Language
+	1. Class
+	2. Object
+	3. Polymorphism
+	4. Encapsulation
+	5. Inheritance
+	6. Data Abstraction
+	
+Class - It is a collection of attributes and behavior
+			Animal(Class) -----> Dog, Elephant, Horse, etc...(Object)
+			Student(Class) ----> Kim, Dhina, Aravinth, Pradip...(Object)
+			Employee(Class) ---> John, Smith, Mary(Object)
+	
+*Class -> Non physical, Object -> Physical
+*Class is a plan or blueprint.
+*One Class have multiple Objects.
+*A group of objects are called as Class.
+*A class is a virtual entity and a object is a physical entity.
+*Object is derived from the class, without class there is no objects.
+*Object is an instance of the class.
+*In Java, attributes are called variables and Behaviors means methods.
+-------------------------------------------------------------------------------
+
+1. Class
+---------
+	*Class is collection of variables and methods
+	*Class is logical entity/blue print 
+	*It will not occupy space in the memory
+
+Syntax:
+	class Employee
+	{
+	variable
+	method
+	}
+	
+	
+2. Object
+----------	
+	*We can create an object only if we have an class, without class we have not create an object
+	*Object should be created within the Main method
+	*Object is an instance of a class / Object will be created by using class
+	*Object is a physical entity, it will occupy memory
+	*We can create N number of Object for a single class
+	
+	We cannot access the methods and variable straightly, only through the object we can access variables and methods.
+	
+Syntax:
+	Employee emp1 = new Employee();
+	Employee emp2 = new Employee();
+	Employee emp3 = new Employee();
+	
+Class ----> Variables & Methods
+
+Methods --> Variables
+
+
+	
+	
+	
+	
+	
+	
+	
+	

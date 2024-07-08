@@ -1,0 +1,11 @@
+Encapsulation
+-------------
+
+Wrapping up of data and methods into single unit(Class). //data means variables
+
+We create variable using Private Access Modifier.  
+
+Setters -> To set the data in the variable through method
+Getters-> To get the data from the variable through method
+
+For every variable we create 2 different method for setting and getting the values from the variable.

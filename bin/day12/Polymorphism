@@ -1,0 +1,35 @@
+Polymorphism
+
+	Poly -  Many
+	Morphism - Forms
+
+	One thing can have many forms.
+	
+ EX: Shape - Circle, Square, Triangle, Rectangle
+
+	Shape - One thing
+	Circle, Square, Triangle, Rectangle - Many forms
+
+ Ex: Water - Vapor, Iceberg etc,..
+
+We can achieve Polymorphism by using Overloading concepts. Overloading can applicable for Methods and Constructors
+
+Method Overloading - We can create multiple methods with same name in same class.
+
+void m1()
+void m1()
+void m1()
+
+Polymorphism is a theory concept. Through Overloading we can achieve Polymorphism.
+
+Rules for Methods Overloading:
+1) Method names should be same
+2) Number of Parameter should be different
+3) Data type of Parameter should be different
+4) Order of parameter should be different
+
+
+Adder Programme - Method Overriding
+Box Programme - Constructor Overriding
+
+ 

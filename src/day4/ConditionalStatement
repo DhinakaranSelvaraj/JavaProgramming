@@ -1,0 +1,87 @@
+Control Statements
+------------------
+Using Control statements we can control the execution of our code.
+
+Types  - 3
+	1. Conditional Statements
+	2. Looping/Iterative statements
+	3. Jumping Statements
+
+	
+1. Conditional Statements - 4 types
+it is use to execute set of statements based upon certain conditions.
+		1. If 
+		2. If Else 
+		3. Nested If Else
+		4. Switch Case
+		
+1) If - Syntax
+	
+	if(condition)
+	{
+	Statements;
+	}
+
+2) If Else - Syntax
+
+	if(condition)
+	{				
+	Statements;		//for the single statement we can remove brackets
+	}
+	else
+	{
+	Statements;
+	}
+	
+If Else Ladder
+---------------
+	if(condition)
+	{				
+	Statements;		
+	}
+	else if(condition)	//We can put N number of conditions
+	{
+	Statements;
+	}
+	else
+	{
+	Statements;
+	}
+
+3) Nested If Else - Syntax (One If condition can have another If condition)
+
+	if(condition)
+	{				
+		if(condition)
+		{
+		Statements;
+		}
+		else
+		{
+		Statements;
+		}		
+	}
+	else
+	{
+	Statements;
+	}
+	
+4) Switch Case Statement - We use this when me deal with more number of conditions
+	
+	switch(variable)
+	{
+	Case value1: statements;
+	Case value2: statements;
+	Case value3: statements;
+	default: statements;
+	}
+
+Assignments
+-----------
+1) Largest of 2 numbers (if..else, ternary operator)
+2) Smallest of 3 numbers
+3) Print week number based on week name(Switch Case)
+	
+	
+	
+	

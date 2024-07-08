@@ -1,0 +1,31 @@
+String Programs:
+
+	Difference between Immutable and Mutable
+	
+	Immutable - We cannot change (String)
+	Mutable - We can change (String Buffer, String Builder)
+	
+1. String Reverse 	
+2. String Comparison
+	1) ==  equals()
+	2) String s= "Welcome";
+	   String s = new String("Welcome");
+	   
+Assignments
+-----------
+1) Check String s Palindrome or Not	 
+	String s = "MADAM"
+	o/p: Palindrome
+	
+	String s = "Welcome"
+	o/p: Not Palindrome
+	
+2) Remove junk or special charactes in String
+
+3) How to Remove White Spaces in a String
+
+4) Count Occurrences of a character is a String
+
+5) Count words in a String
+	 
+	

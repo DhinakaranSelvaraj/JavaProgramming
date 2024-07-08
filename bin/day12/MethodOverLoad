@@ -1,0 +1,28 @@
+Can we overload Main method? Yes We can
+
+public class OverloadingMainMethod {
+
+	void main(int i) {
+		System.out.println(i);
+	}
+
+	void main(String s) {
+		System.out.println(s);
+	}
+
+	void main(String s1, String s2) {
+		System.out.println(s1 + s2);
+	}
+
+	// Above all are main methods
+	// But we can access this method through the object, the obj is created in the actual Main method
+
+	public static void main(String[] args) { // through cmd line we can pass arguments to the String[], and can use itinside the MM.
+		OverloadingMainMethod ov = new OverloadingMainMethod();
+		ov.main(10);
+		ov.main("Str");
+		ov.main("two", "String");
+
+	}
+
+}

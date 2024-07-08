@@ -1,0 +1,69 @@
+Array
+-----
+
+What is an Array?
+	Array is an collection of elements of same data type(Homogeneous data) - Heterogeneous[Contains different data type]
+	We can store multiple values into a single variable.
+	
+Array Declaration
+
+	int a[] = new int[5];
+
+	Every location is identified by using index, index number start with 0.
+	0,1,2,3,4
+	
+	if maximum number of element is n [5], then index is n-1 [5-1]
+	
+	if we want to store some values we can define like
+	a[0] = 100;
+	a[1] = 200;
+	a[2] = 300;
+	a[3] = 400;
+	a[4] = 500;
+	a[5] = 500; shows error:- Array index out of bound exception
+	
+	if we want to get particular value from any index we can print the index
+	sys.println(a[1]);
+	
+2 types of Array:
+	1. Single Dimensional - Create rows
+	2. Two Dimensional/Multi-Dimensional - Create rows along with columns
+	
+	
+1. Single Dimensional	- Row only
+---------------------
+	*Declare an array
+	*Add values into array
+	*Find length of an array
+	*Read single value from an array
+	*Read multiple value from an array
+	
+2. Two Dimensional		- Row along with column
+---------------------
+	*Declare an array
+	*Add values into array
+	*Find length of an array
+	*Read single value from an array
+	*Read multiple value from an array
+	
+Assignment:
+	1. Find Sum of an Array
+	a={1,2,3,4,5}
+	Sum=15
+
+	2. Print Even and Odd numbers from array
+	a={1,2,3,4,5,6}
+	Even = 3
+	Odd = 3
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
