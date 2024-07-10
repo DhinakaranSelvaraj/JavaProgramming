@@ -1,0 +1,28 @@
+Inheritance
+------------
+
+Aquiring all the properties(Variable) and behaviour (Methods) from one class to another class is called Inheritance.
+
+Using variable and methods from one class to another. 
+
+Ex:- Class B extends variables, Methods from Class A
+
+Class A - Parent, Base class, Super class
+
+Class B - Child, Sub, Derived class
+
+
+Objective:
+	1. Re-usability
+	2. Avoid Duplication
+	
+Types of Inheritance
+	-Single Inheritance - One Parent, One child
+	-Multi-level Inheritance - One parent having one child, that child having another, etc..
+	-Hierarchy Inheritance - One parent have multiple child
+	--------Cannot implement using Class, by implement using Interface----------
+	-Multiple Inheritance - Multiple parent having single child
+	Why?
+		Extend support only one class, not support multiple classes
+		Ambiguity issue will come, If 2 different parent having same variable, the child class will confuse to choose variable from different parent class. 
+		Object is the default class in Java automatically other class extends methods from Object Class.
