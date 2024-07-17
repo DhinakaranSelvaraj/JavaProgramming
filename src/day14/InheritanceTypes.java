@@ -1,4 +1,4 @@
-package Day14;
+package day14;
 
 
 //One main class only should have the public class modifier

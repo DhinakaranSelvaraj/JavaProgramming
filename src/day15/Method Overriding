@@ -1,0 +1,17 @@
+Method Overriding
+-----------------
+
+Overriding related to inheritance concepts
+Overloading related to polymorphism concepts
+
+Method Overriding 
+	1)Possible only in multiple classes(Inheritance)
+	2) We should NOT change the signature of the method but body we should change
+	3) Method names are same
+	4) Belongs to inheritance
+	
+Method Overloading:
+	1) Possible in single & Multiple classes (Inheritance)
+	2) We should change the signature of the method
+	3) Method names are same
+	4) Belongs to polymorphism
