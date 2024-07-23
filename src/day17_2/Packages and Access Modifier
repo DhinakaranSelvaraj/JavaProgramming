@@ -1,0 +1,11 @@
+Packages and Access Modifier
+
+	1. Built in packages
+	2. User defined package
+	
+Access Modifiers - Defines scope of variable and methods.
+----------------
+	1. public - Everywhere we can access anywhere
+	2. protected - access the method and variable outside of the package through inheritance
+	3. default - access the method and variable only within the package
+	4. private - access the method and variable only within the class

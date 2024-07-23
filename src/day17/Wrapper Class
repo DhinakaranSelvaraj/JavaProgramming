@@ -1,0 +1,29 @@
+Wrapper Class
+-------------
+
+int - Integer
+float - Float
+double - Double
+char - Character
+boolean - Boolean
+
+Wrapper classes are built in classes which are available in Java
+and for every premitive data type there is corresponding wrapper classes available in Java. 
+
+String, Array, HashSet - Predefined classes not Wrapper class
+
+Use of Wrapper class:
+	Wrapper classes contains built in methods, we have to use to convert the data one format to another format.
+	
+Scenario 1:	String ---> int, double, boolean
+
+
+	1)	String ---> int		Integer.parseInt(String Value)
+	2)	String ---> double	Double.parseDouble(String Value)
+	3)	String ---> bool	Boolean.parshBoolean(String Value)
+	4) 	String ---> char	Not possible
+
+Scenario 2: int, double, boolean, char ---> String	
+Any data type ----> String	String.valueOf() -->convert all premitive data type into String
+	
+	
