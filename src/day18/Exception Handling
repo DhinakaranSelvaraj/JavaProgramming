@@ -1,0 +1,62 @@
+Exception Handling
+-------------------
+
+Error is different, Exception is different.
+	Exception is an event which will cause program termination.(User Mistake)
+	
+Errors:(Dev Mistake)
+	1) Syntax Error (Semi-collan, Typo mistake) - Program cannot execute
+	2) Logical Error - Execute program but output is incorrect
+	
+Types of Exception:
+--------------------
+	1) Checked Exceptions - TryCatch block and Throws, Method level declaration
+		The Exceptions which are identified by java compiler
+			Ex:- InteruptedException
+				 FileNotFound
+				 IOException etc..
+	
+	2) Un-Checked Exceptions - TryCatch block, Statement level Declaration
+		The exceptions which are not identified by java compiler
+			Ex:- ArithmeticException
+				 NullPointerException
+				 ArrayIndexOutOfBoundsException etc..
+				 
+Reason for Exception:
+	1) When user provided invalid input there is a chance of getting exception
+	2) Once exception is occurred then program will be terminated and rest of the code is not executed
+	
+	
+try
+{
+statement
+}
+catch(ArithmeticExeption e)
+{
+statements
+} 
+
+
+
+
+
+try
+{
+statement
+}
+catch()
+{
+}
+finally	//always execute whether we get exception or not
+{
+//closing the connection, closing file
+}
+
+case1: Exception occured, catch block handled --> Finally block will execute
+case2: Exception occured, catch block NOT handled --> Finally block will execute
+case3: Execution does not occured, catch block ignored --> Finally block will execute
+
+
+Checked exception can be handled by two ways
+	1) Try Catch
+	2) Throws
