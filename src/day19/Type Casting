@@ -1,0 +1,11 @@
+Type Casting:
+------------
+	Converting type of data.
+	
+Type:
+	1) Upcasting/Widening
+	2) Downcasting/Narrowing
+	
+	
+Child c = new (Child); Can access variables and methods from child class
+Parent p = new Child(); Only access from parent class not able to access from child class
