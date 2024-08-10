@@ -1,0 +1,14 @@
+HashMap - A class implemented Map interface
+-------
+
+id		Name	
+101		x	[Key	Value] is called as one pair
+102		y
+
+Keys should not be duplicate
+Values can be duplicate
+
+HashMap
+1) Data can be stored in the form of key, value pairs.
+2) Key is unique, but we can have duplicate values
+3) Insertion order not preserved (Index not followed)

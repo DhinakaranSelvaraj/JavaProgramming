@@ -1,0 +1,7 @@
+HashSet - A class implemented set interface
+--------
+
+1) Heterogenios data --> Allowed
+2) Insertion order ---> Not Preserved (Index not supported) - Not following Indexing Technique follows Hashing Technique
+3) Duplicate Elements ---> Not allowed
+4) Multiple nulls not allowed/Only Single null is allowed

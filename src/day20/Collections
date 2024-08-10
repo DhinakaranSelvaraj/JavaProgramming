@@ -1,0 +1,26 @@
+Collections
+-----------
+Collections  - To represent group of elements/obj/data into single entity
+
+Collection is the interface available in java.util
+
+It is a root interface of all the collections
+
+Collections is a predefined interface. It has number of methods and variables.
+
+Collections Extended into 2 interfaces
+	List(I) implemented by ArrayList(C)
+	Set(I) implemented by HashSet(C)
+
+Collections hold group of objects not Primitive data type.
+
+Collections only store Object type of data.(Pre defined or User Defined)
+Collection especially designed for Object 
+
+
+ArrayList - is class which is implemented List interface
+
+1) Heterogenious Data - Allowed
+2) Insertion order - Preserved (Index)
+3) Duplicate elements - Allowed
+4) Multiple nulls  - Allowed
